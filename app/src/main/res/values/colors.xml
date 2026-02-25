@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#80CBC4</color>   <!-- бледно-бирюзовый -->
+    <color name="primary_dark">#4DB6AC</color>
+    <color name="primary_light">#E0F2F1</color>
+    <color name="accent">#FFB74D</color>
+    <color name="text_color">#212121</color>
+</resources>

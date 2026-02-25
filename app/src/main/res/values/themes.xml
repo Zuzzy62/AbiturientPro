@@ -1,0 +1,17 @@
+<resources>
+    <!-- Базовая тема приложения - без ActionBar, с поддержкой DayNight (автосмена темы) -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_color</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/text_color</item>
+        <item name="android:windowBackground">@color/primary_light</item>
+    </style>
+
+    <!-- Стиль для заголовка навигационного меню -->
+    <style name="ThemeOverlay.AppTheme.Dark" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

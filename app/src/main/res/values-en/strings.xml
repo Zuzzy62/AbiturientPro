@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TPEC Admissions Committee</string>
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="submit_application">Submit Application</string>
+    <string name="my_applications">My Applications</string>
+    <string name="child_applications">Children\'s Applications</string>
+    <string name="all_applications">All Applications</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="welcome_applicant">Welcome, %s! You are an applicant.</string>
+    <string name="welcome_parent">Welcome, %s! You are a parent.</string>
+    <string name="welcome_admin">Welcome, %s! You are an administrator.</string>
+    <string name="use_menu">Use the menu on the left to navigate.</string>
+    <string name="use_menu_parent">Here you can view your children\'s applications.</string>
+    <string name="use_menu_admin">Here you can manage applications.</string>
+
+    <string name="choose_specialty">Choose specialty:</string>
+    <string name="submit">Submit</string>
+    <string name="application_submitted">Application submitted successfully!</string>
+
+    <string name="no_applications">You have no applications yet.</string>
+    <string name="no_children">You have no linked children.</string>
+
+    <string name="select_child">Select child:</string>
+    <string name="confirm_selected_application">Confirm selected application</string>
+    <string name="application_confirmed">Application confirmed by parent!</string>
+    <string name="already_confirmed">Application already confirmed.</string>
+
+    <string name="all_specialties">All specialties</string>
+    <string name="confirm_selected_by_admin">Confirm enrollment</string>
+    <string name="application_confirmed_by_admin">Application confirmed by admin! Applicant enrolled.</string>
+    <string name="parent_confirmation_needed">Parent confirmation required first.</string>
+    <string name="select_application">Select an application from the list.</string>
+
+    <string name="theme">Theme</string>
+    <string name="light_theme">Light</string>
+    <string name="dark_theme">Dark</string>
+    <string name="system_theme">System</string>
+    <string name="language">Language</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+</resources>

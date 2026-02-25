@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Общий пункт для всех -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/home" />
+
+    <!-- Группа для абитуриента -->
+    <group
+        android:id="@+id/nav_group_applicant"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_submit_application"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/submit_application" />
+        <item
+            android:id="@+id/nav_my_applications"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/my_applications" />
+    </group>
+
+    <!-- Группа для родителя -->
+    <group
+        android:id="@+id/nav_group_parent"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_child_applications"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/child_applications" />
+    </group>
+
+    <!-- Группа для администратора -->
+    <group
+        android:id="@+id/nav_group_admin"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_applications"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/all_applications" />
+    </group>
+
+    <!-- Общие пункты -->
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/logout" />
+
+</menu>

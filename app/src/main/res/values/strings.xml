@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Приемная комиссия ТПЭК</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Войти</string>
+
+    <string name="navigation_drawer_open">Открыть навигационное меню</string>
+    <string name="navigation_drawer_close">Закрыть навигационное меню</string>
+
+    <string name="home">Главная</string>
+    <string name="submit_application">Подать заявление</string>
+    <string name="my_applications">Мои заявления</string>
+    <string name="child_applications">Заявления детей</string>
+    <string name="all_applications">Все заявления</string>
+    <string name="settings">Настройки</string>
+    <string name="logout">Выйти</string>
+
+    <string name="welcome_applicant">Добро пожаловать, %s! Вы абитуриент.</string>
+    <string name="welcome_parent">Добро пожаловать, %s! Вы родитель.</string>
+    <string name="welcome_admin">Добро пожаловать, %s! Вы администратор.</string>
+    <string name="use_menu">Используйте меню слева для навигации.</string>
+    <string name="use_menu_parent">Здесь вы можете просмотреть заявления ваших детей.</string>
+    <string name="use_menu_admin">Здесь вы можете управлять заявлениями.</string>
+
+    <string name="choose_specialty">Выберите специальность:</string>
+    <string name="submit">Подать</string>
+    <string name="application_submitted">Заявление успешно подано!</string>
+
+    <string name="no_applications">У вас пока нет заявлений.</string>
+    <string name="no_children">У вас нет привязанных детей.</string>
+
+    <string name="select_child">Выберите ребёнка:</string>
+    <string name="confirm_selected_application">Подтвердить выбранное заявление</string>
+    <string name="application_confirmed">Заявление подтверждено родителем!</string>
+    <string name="already_confirmed">Заявление уже подтверждено.</string>
+
+    <string name="all_specialties">Все специальности</string>
+    <string name="confirm_selected_by_admin">Подтвердить зачисление</string>
+    <string name="application_confirmed_by_admin">Заявление подтверждено администратором! Абитуриент зачислен.</string>
+    <string name="parent_confirmation_needed">Сначала необходимо подтверждение родителя.</string>
+    <string name="select_application">Выберите заявление из списка.</string>
+
+    <string name="theme">Тема</string>
+    <string name="light_theme">Светлая</string>
+    <string name="dark_theme">Тёмная</string>
+    <string name="system_theme">Системная</string>
+    <string name="language">Язык</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+</resources>
